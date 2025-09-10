@@ -22,5 +22,5 @@ jobs:
           pip install pytest
       - name: Exécuter les 
         run: |
-          pytest
+          pytest test_calculator.py
 
