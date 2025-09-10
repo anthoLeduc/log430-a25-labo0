@@ -22,5 +22,5 @@ jobs:
           pip install pytest
       - name: Exécuter les tests
         run: |
-          pytest log430-a25-labo0\src\tests\test_calculator.py
+          pytest src/tests/test_calculator.py
 
