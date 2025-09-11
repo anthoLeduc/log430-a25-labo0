@@ -5,7 +5,9 @@ Auteurs : Gabriel C. Ullmann, Fabio Petrillo, 2025
 """
 
 from src.calculator import Calculator
-
+def test_hello_message():
+    my_calculator = Calculator()
+    assert my_calculator.get_hello_message() == "== Calculatrice v1.0 =="
 
 def test_addition():
      
